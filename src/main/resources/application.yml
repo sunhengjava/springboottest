@@ -1,0 +1,33 @@
+student:
+  id: 1002
+  name: mangee
+  addr: "安徽1"
+
+server:
+  port: 8084
+logging:
+  file:
+    name: BootLog/BootTest.log
+    max-size: 1MB
+    max-history: 20
+  pattern:
+    # 日志记录格式[组件名称] [时间戳] [日志级别] [类名.方法名] [消息文本]
+    file: BootTest %d{yyyy-MM-dd HH:mm:ss.SSS} %p %C.%M %m %n
+    # 根据文件大小归档，超过20MB自动归档，次日启动服务时也会自动归档
+    rolling-file-name: ../logs/BootTest/%d{yyyyMMdd}/BootTest.log.%d{yyyy-MM-dd}.%i.gz
+##连接数据库的配置
+#  spring.datasource.driver-class-name=com.mysql.jdbc.Driver
+#  spring.datasource.url=jdbc:mysql://localhost:3306/test
+#  spring.datasource.username=root
+#  spring.datasource.password=ok
+#
+#  #mybatis加载映射文件的路径
+#  mybatis.mapper-locations=classpath:mapper/*.xml
+#spring:
+#  datasource:
+#    driver-class-name: com.mysql.jdbc.Driver
+#    url: jdbc:mysql://localhost:3306/test
+#    username: root
+#    password: ok
+#mybatis:
+#  mapper-locations: classpath:mapper/*.xml

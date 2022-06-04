@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<msgbody>
+    <target>
+        <event>
+            <type>zdyx</type>
+            <ip>22.56.192.148</ip>
+            <port>20022</port>
+            <path>/var/sdtb/zdyx</path>
+            <user>d5000</user>
+            <password>20nari18</password>
+        </event>
+
+    </target>
+    <hisdata>
+        <event>
+            <type>zdyx</type>
+            <ip>22.56.192.148</ip>
+            <port>20022</port>
+            <path>/var/sdtb_his/zdyx</path>
+            <user>d5000</user>
+            <password>20nari18</password>
+        </event>
+        <event>
+            <type>zdtz</type>
+            <ip>22.56.192.148</ip>
+            <port>20022</port>
+            <path>/var/sdtb_his/zdtz</path>
+            <user>d5000</user>
+            <password>20nari18</password>
+        </event>
+    </hisdata>
+    <sourcelist>
+        <sourceinfo>
+            <filestart>chenzhou</filestart>
+            <area_id>113715890591105040</area_id>
+            <tmidstart>3802726935360966007</tmidstart>
+            <encode>gbk</encode>
+        </sourceinfo>
+        <sourceinfo>
+            <filestart>yiyang</filestart>
+            <area_id>113715890591105038</area_id>
+            <tmidstart>3802726935360966002</tmidstart>
+            <encode>gbk</encode>
+        </sourceinfo>
+    </sourcelist>
+</msgbody>

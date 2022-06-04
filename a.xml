@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<msgbody>
+    <StringList>
+        <mx>
+            <paramA>Aone</paramA>
+            <paramB>Bone</paramB>
+        </mx>
+        <mx>
+            <paramA>Atow</paramA>
+            <paramB>Atow</paramB>
+        </mx>
+    </StringList>
+
+    <serverId>serv10000000156</serverId>
+    <name>张三</name>
+    <age>女</age>
+    <address>武汉市</address>
+
+</msgbody>
+
+
+
+
+
+
+
+
